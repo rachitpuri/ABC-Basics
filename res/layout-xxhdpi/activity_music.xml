@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/music_background" >
+
+     <RadioButton
+         android:id="@+id/twinkle"
+         android:layout_width="230dp"
+         android:layout_height="60dp"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="52dp"
+         android:text="@string/Twinkle" />
+
+     <RadioButton
+         android:id="@+id/humpty"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/twinkle"
+         android:layout_below="@+id/twinkle"
+         android:layout_marginTop="15dp"
+         android:text="@string/Humpty" />
+
+     <RadioButton
+         android:id="@+id/baba"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/humpty"
+         android:layout_below="@+id/johny"
+         android:layout_marginTop="26dp"
+         android:text="@string/Baa" />
+
+     <RadioButton
+         android:id="@+id/johny"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/humpty"
+         android:layout_below="@+id/humpty"
+         android:layout_marginTop="25dp"
+         android:text="@string/johny" />
+      
+</RelativeLayout>

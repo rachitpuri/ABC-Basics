@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/music_background" >
+
+     <RadioButton
+         android:id="@+id/humpty"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/twinkle"
+         android:layout_below="@+id/twinkle"
+         android:layout_marginTop="119dp"
+         android:text="@string/Humpty"
+         android:textSize="35dp" />
+
+     <RadioButton
+         android:id="@+id/johny"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/humpty"
+         android:layout_below="@+id/humpty"
+         android:layout_marginTop="138dp"
+         android:text="@string/johny"
+         android:textSize="35dp" />
+
+     <RadioButton
+         android:id="@+id/baba"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/johny"
+         android:layout_below="@+id/johny"
+         android:layout_marginTop="122dp"
+         android:text="@string/Baa"
+         android:textSize="35dp" />
+
+     <RadioButton
+         android:id="@+id/twinkle"
+         android:layout_width="500dp"
+         android:layout_height="100dp"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginRight="55dp"
+         android:layout_marginTop="149dp"
+         android:text="@string/Twinkle"
+         android:textSize="35dp" />
+      
+</RelativeLayout>

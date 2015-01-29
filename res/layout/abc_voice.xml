@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/voice_background" >   
+        	   
+<Button
+    	android:id="@+id/home_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/home" />
+
+
+    <ImageView
+   	    android:id="@+id/ImageViewChar"
+   	    android:layout_width="90dp"
+   	    android:layout_height="80dp"
+   	    android:layout_below="@+id/TextView"
+   	    android:layout_centerHorizontal="true"
+   	    android:layout_marginTop="35dp"
+   	    android:src="@drawable/background" />
+   	
+    <ImageView
+        android:id="@+id/ImageViewPreview"
+        android:layout_width="300dp"
+        android:layout_height="200dp" 
+        android:layout_below="@id/ImageViewChar"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/background"/>
+
+    	<Button
+    	    android:id="@+id/forward_btn"
+    	    android:layout_width="130dp"
+    	    android:layout_height="70dp"
+    	    android:layout_alignParentBottom="true"
+    	    android:layout_alignParentRight="true"
+    	    android:layout_marginBottom="22dp"
+    	    android:layout_marginRight="14dp"
+    	    android:background="@drawable/forward_arrow"/>
+
+    	<Button
+    	    android:id="@+id/backward_btn"
+    	    android:layout_width="130dp"
+    	    android:layout_height="70dp"
+    	    android:layout_alignBaseline="@+id/forward_btn"
+    	    android:layout_alignBottom="@+id/forward_btn"
+    	    android:layout_alignLeft="@+id/ImageViewPreview"
+    	    android:background="@drawable/back_arrow" />
+
+    	<ImageView
+    	    android:id="@+id/TextView"
+    	    android:layout_width="200dp"
+    	    android:layout_height="70dp"
+    	    android:layout_alignBottom="@+id/home_btn"
+    	    android:layout_alignParentRight="true"
+    	    android:layout_toRightOf="@+id/backward_btn"
+    	    android:src="@drawable/background" />
+
+    	
+    </RelativeLayout>

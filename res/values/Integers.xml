@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <integer name="character_width">114</integer>
+    <integer name="character_height">135</integer>
+    
+    <integer name="number_width">160</integer>
+    <integer name="number_height">160</integer>
+    
+    <integer name="rate">80</integer>
+    
+</resources>

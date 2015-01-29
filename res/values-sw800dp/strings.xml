@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ABC Basics</string>
+    <string name="title_activity_abc"></string>
+    <string name="title_activity_numbers">Numbers</string>
+    <!-- <string name="hello_world">Hello world!</string> -->
+
+    <string name="title_activity_abc_voice">AbcVoice</string>
+    <string name="title_activity_number_voice">NumberVoice</string>
+    <string name="title_activity_puzzle">Puzzle</string>
+    <string name="description">Hello</string>
+    <string name="title_activity_amain">AMainActivity</string>
+    <string name="title_activity_music">Music</string>
+    
+    <string name="johny">Johny Johny Yes Papa</string>
+    <string name="Humpty">Humpty Dumpty</string>
+    <string name="Twinkle">Twinkle Twinkle Little Star</string>
+    <string name="Baa">Baa Baa Black Sheep</string>
+
+</resources>

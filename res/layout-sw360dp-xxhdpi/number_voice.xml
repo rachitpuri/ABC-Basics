@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/voice_background" >
+        
+<Button
+    	android:id="@+id/home_btn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/home" />
+    	
+    	 <ImageView
+    	     android:id="@+id/NumberView"
+    	     android:layout_width="200dp"
+    	     android:layout_height="70dp"
+    	     android:layout_alignBottom="@+id/home_btn"
+    	     android:layout_alignParentRight="true"
+    	     android:layout_toRightOf="@+id/backward_number_btn"
+    	     android:src="@drawable/background" />
+
+    	 <Button
+    	     android:id="@+id/backward_number_btn"
+    	     android:layout_width="130dp"
+    	     android:layout_height="70dp"
+    	     android:layout_alignLeft="@+id/ImageViewPreviewNumber"
+    	     android:layout_alignParentBottom="true"
+    	     android:layout_marginBottom="46dp"
+    	     android:background="@drawable/back_arrow"/>
+
+    	 <Button
+    	     android:id="@+id/forward_number_btn"
+    	     android:layout_width="130dp"
+    	     android:layout_height="70dp"
+    	     android:layout_alignBaseline="@+id/backward_number_btn"
+    	     android:layout_alignBottom="@+id/backward_number_btn"
+    	     android:layout_alignParentRight="true"
+    	     android:layout_marginRight="23dp"
+    	     android:background="@drawable/forward_arrow"/>
+
+    	 <ImageView
+    	     android:id="@+id/ImageViewPreviewNumber"
+    	     android:layout_width="330dp"
+    	     android:layout_height="230dp"
+    	     android:layout_centerHorizontal="true"
+    	     android:layout_centerVertical="true"
+    	     android:src="@drawable/background" />
+
+    	 <ImageView
+    	     android:id="@+id/ImageViewNumber"
+    	     android:layout_width="80dp"
+    	     android:layout_height="70dp"
+    	     android:layout_above="@+id/ImageViewPreviewNumber"
+    	     android:layout_centerHorizontal="true"
+    	     android:src="@drawable/background" />
+
+    </RelativeLayout>

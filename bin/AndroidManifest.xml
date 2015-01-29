@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.puri.AbcBasics"
+    android:versionCode="4"
+    android:versionName="1.0" >
+
+  	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    	
+    <supports-screens 
+		android:resizeable="true"
+		android:smallScreens="true" 
+		android:normalScreens="true" 
+		android:largeScreens="true"
+		android:xlargeScreens="true" 
+		android:anyDensity="true" />
+    	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/abc"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.puri.AbcBasics.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.puri.AbcBasics.ABC"
+            android:label="@string/title_activity_abc"
+            android:parentActivityName="com.example.application"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.application" />
+        </activity>
+        <activity
+            android:name="com.puri.AbcBasics.Numbers"
+            android:label="@string/title_activity_numbers"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.puri.AbcBasics.AbcVoice"
+            android:label="@string/title_activity_abc_voice"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.puri.AbcBasics.NumberVoice"
+            android:label="@string/title_activity_number_voice"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.puri.AbcBasics.Puzzle"
+            android:label="@string/title_activity_puzzle"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.puri.AbcBasics.Music"
+            android:label="@string/title_activity_music"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

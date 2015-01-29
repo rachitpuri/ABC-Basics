@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+        android:background="@drawable/voice_background" >
+        
+    <Button
+    	android:id="@+id/puzzlehome_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/home" />
+
+        <Button
+            android:id="@+id/refresh_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="44dp"
+            android:background="@drawable/refresh_puzzle" />
+
+        <ImageView
+            android:id="@+id/question"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:layout_alignTop="@+id/puzzlehome_btn"
+            android:layout_toRightOf="@+id/lefttop"
+            android:src="@drawable/question_mark" />
+
+        <ImageView
+            android:id="@+id/rightbottom"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_above="@+id/refresh_btn"
+            android:layout_marginBottom="75dp"
+            android:layout_toLeftOf="@+id/lefttop"
+            android:src="@drawable/background" />
+
+        <ImageView
+            android:id="@+id/righttop"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_above="@+id/rightbottom"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="-8dp"
+            android:layout_toRightOf="@+id/puzzlehome_btn"
+            android:src="@drawable/background" />
+
+        <ImageView
+            android:id="@+id/leftbottom"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_alignTop="@+id/rightbottom"
+            android:layout_toRightOf="@+id/rightbottom"
+            android:src="@drawable/background" />
+
+        <ImageView
+            android:id="@+id/lefttop"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+             android:layout_marginLeft="2dp"
+            android:layout_alignTop="@+id/righttop"
+            android:layout_toRightOf="@+id/righttop"
+            android:src="@drawable/background" />
+
+    </RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <integer name="character_width">140</integer>
+    <integer name="character_height">170</integer>
+    
+    <integer name="number_width">190</integer>
+    <integer name="number_height">190</integer>
+</resources>

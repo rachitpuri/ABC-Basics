@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/voice_background" >
+        
+<Button
+    	android:id="@+id/home_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/home" />
+    	
+    	 <ImageView
+    	     android:id="@+id/NumberView"
+    	     android:layout_width="220dp"
+    	     android:layout_height="120dp"
+    	     android:layout_alignBottom="@+id/home_btn"
+    	     android:layout_alignParentRight="true"
+    	     android:layout_toRightOf="@+id/backward_number_btn"
+    	     android:src="@drawable/background" />
+
+    	 <ImageView
+    	     android:id="@+id/ImageViewPreviewNumber"
+    	     android:layout_width="500dp"
+    	     android:layout_height="360dp"
+    	     android:layout_below="@+id/ImageViewNumber"
+    	     android:layout_centerHorizontal="true"
+    	     android:src="@drawable/background" />
+
+    	 <ImageView
+    	     android:id="@+id/ImageViewNumber"
+    	     android:layout_width="140dp"
+    	     android:layout_height="110dp"
+    	     android:layout_below="@+id/NumberView"
+    	     android:layout_centerHorizontal="true"
+    	     android:layout_marginTop="86dp"
+    	     android:src="@drawable/background" />
+
+    	 <Button
+    	     android:id="@+id/forward_number_btn"
+    	     android:layout_width="220dp"
+    	     android:layout_height="120dp"
+    	     android:layout_alignBaseline="@+id/backward_number_btn"
+    	     android:layout_alignBottom="@+id/backward_number_btn"
+    	     android:layout_alignParentRight="true"
+    	     android:layout_marginRight="21dp"
+    	     android:background="@drawable/forward_arrow" />
+
+    	 <Button
+    	     android:id="@+id/backward_number_btn"
+    	     android:layout_width="220dp"
+    	     android:layout_height="120dp"
+    	     android:layout_alignLeft="@+id/home_btn"
+    	     android:layout_alignParentBottom="true"
+    	     android:layout_marginBottom="33dp"
+    	     android:background="@drawable/back_arrow" />
+
+    </RelativeLayout>
